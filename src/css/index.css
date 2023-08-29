@@ -1,0 +1,140 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+html{
+    font-family: Helvetica;
+    background: url('../img/background.jpg') no-repeat fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+    color: #fff;
+}
+
+nav{
+
+}
+
+#nav-menu{
+    display: flex;
+    justify-content: end;
+    height: 35px;
+}
+
+#nav-menu li{
+    list-style: none;
+    border-radius: 15px;
+    border: transparent;
+    width: 150px;
+}
+
+#nav-menu li:hover, #nav-menu li a:hover{
+    transition-duration: 500ms;
+    border-bottom: 1px dashed;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2);
+    text-decoration: solid;
+    color: #ffd700;
+}
+
+
+#nav-menu li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+
+.container{
+    max-width: 1100px;
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(15px);
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* header  */
+.header{
+    text-align: center;
+}
+
+.main-title{
+    font-size: 40px;
+    color: #ffd700;
+}
+
+.main-paragraph{
+    font-style: italic;
+}
+
+/* Imagem de Destaque  */
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Biografia  */
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #666;
+    border-bottom: 1px dashed #666;
+}
+
+/* Quotes */
+.quotes-container{
+    background-color: #000;
+    padding: 30px;
+    color: #ffd700;
+}
+
+.quotes-container h2, .quotes-container p{
+    color: #ccc;
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+/* Curiosidade */
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #666;
+    border-bottom: 1px dashed #666;
+}
+
+.curiosities-container li{
+    height: 30px;
+}
+
+/* Imagem Bold */
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
+
+.moreinfo-container p a{
+    color: #ffd700;
+}
